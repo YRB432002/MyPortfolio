@@ -172,9 +172,9 @@ function validate(e){
   .catch((error) => {
     console.error('Error:', error);
   });
-  
-    }
-    username.value=''
+  username.value=''
     email.value=''
     project.value=''
+    }
+    
 }
