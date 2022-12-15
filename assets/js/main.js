@@ -167,14 +167,15 @@ function validate(e){
   .then((response) => response.json())
   .then((result) => {
     console.log('Success:', result);
+		username.value=''
+    email.value=''
+    project.value=''
     alert('Data Sent Successfully! Thankyou for contacting :)')
   })
   .catch((error) => {
     console.error('Error:', error);
   });
-  username.value=''
-    email.value=''
-    project.value=''
+  
     }
     
 }
